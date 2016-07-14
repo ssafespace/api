@@ -26,6 +26,7 @@ end
 group :development, :test do
   gem "byebug", "9.0.3", platform: :mri
   gem "figaro", "1.1.1"
+  gem "rspec-rails", "3.5.1"
 end
 
 group :development do
